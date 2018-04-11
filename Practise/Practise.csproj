@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9387F02-48B6-4151-BDD7-4ED4F942BB57}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Practise</RootNamespace>
+    <AssemblyName>Practise</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlphanumericLess.cs" />
+    <Compile Include="AlphanumericLess2.cs" />
+    <Compile Include="AmicableNumbers.cs" />
+    <Compile Include="ArrayConversion.cs" />
+    <Compile Include="ArrayPreviousLess.cs" />
+    <Compile Include="BeautifulText.cs" />
+    <Compile Include="BishopAndPawn.cs" />
+    <Compile Include="BuildPalindrome.cs" />
+    <Compile Include="ChampernownesConstant.cs" />
+    <Compile Include="ChessKnight.cs" />
+    <Compile Include="CircularPrimes.cs" />
+    <Compile Include="CitiesConquering.cs" />
+    <Compile Include="CodedTriangleNumbers.cs" />
+    <Compile Include="Demo2.cs" />
+    <Compile Include="DigitCancellingFractions.cs" />
+    <Compile Include="DigitFactorial .cs" />
+    <Compile Include="DigitsProduct.cs" />
+    <Compile Include="DeleteDigit.cs" />
+    <Compile Include="DigitDegree.cs" />
+    <Compile Include="DistinctPowers.cs" />
+    <Compile Include="DistinctPrimesFactors.cs" />
+    <Compile Include="DoubleBasePalindromes.cs" />
+    <Compile Include="EfficientRoadNetwork.cs" />
+    <Compile Include="ElectionsWinners.cs" />
+    <Compile Include="FibonacciNumber.cs" />
+    <Compile Include="FifthPowers .cs" />
+    <Compile Include="FileNaming.cs" />
+    <Compile Include="FinancialCrisis.cs" />
+    <Compile Include="GreatRenaming.cs" />
+    <Compile Include="GrowingPlant.cs" />
+    <Compile Include="HighlyDivisibleTriangularNumber.cs" />
+    <Compile Include="IExplicit .cs" />
+    <Compile Include="HighVer.cs" />
+    <Compile Include="IDemo.cs" />
+    <Compile Include="IntegerRightTriangles.cs" />
+    <Compile Include="IsBeautifulString.cs" />
+    <Compile Include="KnapsackLight.cs" />
+    <Compile Include="LargeSum.cs" />
+    <Compile Include="LexicographicPermutations.cs" />
+    <Compile Include="LineEncoding.cs" />
+    <Compile Include="LongestDigitsPrefix.cs" />
+    <Compile Include="LongestWord.cs" />
+    <Compile Include="LychrelNumbers.cs" />
+    <Compile Include="MessageFromBinaryCode.cs" />
+    <Compile Include="NamesScores.cs" />
+    <Compile Include="NamingRoads.cs" />
+    <Compile Include="NumberSpiralDiagonals.cs" />
+    <Compile Include="PairOfShoes.cs" />
+    <Compile Include="PanDigital .cs" />
+    <Compile Include="PandigitalMultiples.cs" />
+    <Compile Include="PandigitalPrime.cs" />
+    <Compile Include="PentagonNumbers.cs" />
+    <Compile Include="Permutations.cs" />
+    <Compile Include="PermutedMultiples.cs" />
+    <Compile Include="RoadRegister.cs" />
+    <Compile Include="RoadsBuilding.cs" />
+    <Compile Include="SelfPowers.cs" />
+    <Compile Include="StandardtImplementation.cs" />
+    <Compile Include="PalindromeRearranging.cs" />
+    <Compile Include="pm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="Sorting.cs" />
+    <Compile Include="StringsCrossOver.cs" />
+    <Compile Include="SubStringDivisibility.cs" />
+    <Compile Include="Sudoku.cs" />
+    <Compile Include="SumUpNumbers.cs" />
+    <Compile Include="TriangularPentagonalHexagonal.cs" />
+    <Compile Include="TruncatablePrimes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

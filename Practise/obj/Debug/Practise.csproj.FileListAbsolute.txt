@@ -1,0 +1,7 @@
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\bin\Debug\Practise.exe.config
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\bin\Debug\Practise.exe
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\bin\Debug\Practise.pdb
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\obj\Debug\Practise.csproj.CoreCompileInputs.cache
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\obj\Debug\Practise.exe
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\obj\Debug\Practise.pdb
+C:\Users\vamshikrishna.pabba\source\repos\Practise\Practise\obj\Debug\Practise.csprojResolveAssemblyReference.cache
