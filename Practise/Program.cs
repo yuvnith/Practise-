@@ -1846,7 +1846,7 @@ namespace Practise
             //              new int[] {1,23},
             //              new int[] {1,21},
             //              new int[] {0,23}
-                      
+
             //      };
 
             //Console.WriteLine(p.pairOfShoes(jaggedArray3));
@@ -1862,8 +1862,47 @@ namespace Practise
             //var p = new PermutedMultiples();
             //p.Demo();
 
-            var l = new LychrelNumbers();
+            //var l = new LychrelNumbers();
+            //l.demo();
+
+            //var p = new PowerfullDigitSum();
+            //p.Demo();
+
+            //var r = new  ReverseOnDiagonals();
+            //int[][] jaggedArray3 =
+            //        {
+            //                  new int[] {1,2,3},
+            //                  new int[] {4,5,6},
+            //                  new int[] {7,8,9}
+
+            //          };
+            //r.reverseOnDiagonals(jaggedArray3);
+
+            //var c = new CyclicalFigurateNumbers();
+            //Console.WriteLine(c.isHeptagonal(1404));
+
+            //var cc = new CubicPermutations();
+            //cc.demo();
+       
+
+
+            //var v = new VolleyballPositions();
+            //string[][] t = new string[][]
+            //{
+            //    new string[]{"empty",   "Player5", "empty"},
+            //    new string[]{"Player4", "empty",   "Player2"},
+            //    new string[]{"empty", "Player3", "empty"},
+            //    new string[]{ "Player6", "empty",   "Player1"},
+            //};
+
+            // v.volleyballPositions(t, 10);
+
+            var l = new LargestExponential();
             l.demo();
+
+
+            //var p = new PrimeGeneratingIntegers();
+            //p.demo();
 
             Console.ReadKey();
         }

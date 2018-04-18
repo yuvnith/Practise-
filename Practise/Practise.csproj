@@ -46,6 +46,7 @@
     <Compile Include="AlphanumericLess.cs" />
     <Compile Include="AlphanumericLess2.cs" />
     <Compile Include="AmicableNumbers.cs" />
+    <Compile Include="AreIsomorphic.cs" />
     <Compile Include="ArrayConversion.cs" />
     <Compile Include="ArrayPreviousLess.cs" />
     <Compile Include="BeautifulText.cs" />
@@ -56,6 +57,9 @@
     <Compile Include="CircularPrimes.cs" />
     <Compile Include="CitiesConquering.cs" />
     <Compile Include="CodedTriangleNumbers.cs" />
+    <Compile Include="CrossingSum.cs" />
+    <Compile Include="CubicPermutations.cs" />
+    <Compile Include="CyclicalFigurateNumbers.cs" />
     <Compile Include="Demo2.cs" />
     <Compile Include="DigitCancellingFractions.cs" />
     <Compile Include="DigitFactorial .cs" />
@@ -65,8 +69,10 @@
     <Compile Include="DistinctPowers.cs" />
     <Compile Include="DistinctPrimesFactors.cs" />
     <Compile Include="DoubleBasePalindromes.cs" />
+    <Compile Include="DrawRectangle.cs" />
     <Compile Include="EfficientRoadNetwork.cs" />
     <Compile Include="ElectionsWinners.cs" />
+    <Compile Include="ExtractMatrixColumn.cs" />
     <Compile Include="FibonacciNumber.cs" />
     <Compile Include="FifthPowers .cs" />
     <Compile Include="FileNaming.cs" />
@@ -80,6 +86,7 @@
     <Compile Include="IntegerRightTriangles.cs" />
     <Compile Include="IsBeautifulString.cs" />
     <Compile Include="KnapsackLight.cs" />
+    <Compile Include="LargestExponential.cs" />
     <Compile Include="LargeSum.cs" />
     <Compile Include="LexicographicPermutations.cs" />
     <Compile Include="LineEncoding.cs" />
@@ -97,6 +104,9 @@
     <Compile Include="PentagonNumbers.cs" />
     <Compile Include="Permutations.cs" />
     <Compile Include="PermutedMultiples.cs" />
+    <Compile Include="PowerfullDigitSum.cs" />
+    <Compile Include="PrimeGeneratingIntegers.cs" />
+    <Compile Include="ReverseOnDiagonals.cs" />
     <Compile Include="RoadRegister.cs" />
     <Compile Include="RoadsBuilding.cs" />
     <Compile Include="SelfPowers.cs" />
@@ -107,12 +117,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="Sorting.cs" />
+    <Compile Include="StarRotation.cs" />
     <Compile Include="StringsCrossOver.cs" />
     <Compile Include="SubStringDivisibility.cs" />
     <Compile Include="Sudoku.cs" />
     <Compile Include="SumUpNumbers.cs" />
     <Compile Include="TriangularPentagonalHexagonal.cs" />
     <Compile Include="TruncatablePrimes.cs" />
+    <Compile Include="VolleyballPositions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

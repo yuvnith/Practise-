@@ -8,7 +8,7 @@ namespace Practise
         public void demo()
         {
             int count = 0;
-            for (int i = 12; i < 10000; i++)
+            for (int i = 196; i < 10000; i++)
             {
                 Console.WriteLine(i);
                 BigInteger t = i;
@@ -21,8 +21,8 @@ namespace Practise
 
                     t += t3;
 
-                    string a = t3.ToString();
-                    char[] b = t3.ToString().ToCharArray();
+                    string a = t.ToString();
+                    char[] b = t.ToString().ToCharArray();
                     Array.Reverse(b);
                     string c = new string(b);
 
@@ -37,6 +37,8 @@ namespace Practise
                 if (flag == 0)
                     count++;
             }
+
+            Console.WriteLine(count);
         }
 
     }
