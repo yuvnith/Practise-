@@ -9,7 +9,7 @@ namespace Practise
         public void demo()
         {
             BigInteger sum = 0;
-            for (double i = 1; i < 100000000; i++)
+            for (double i = 1; i <= 100000000; i++)
             {
                 
 
@@ -32,14 +32,9 @@ namespace Practise
                     Console.WriteLine(i);
                     sum += BigInteger.Parse(i.ToString());
                 }
-                    
-
-
             }
-
-
-
-            Console.WriteLine(sum);
+            
+            Console.WriteLine("sum:"+sum);
         }
 
 

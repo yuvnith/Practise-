@@ -1883,7 +1883,7 @@ namespace Practise
 
             //var cc = new CubicPermutations();
             //cc.demo();
-       
+
 
 
             //var v = new VolleyballPositions();
@@ -1897,12 +1897,32 @@ namespace Practise
 
             // v.volleyballPositions(t, 10);
 
-            var l = new LargestExponential();
-            l.demo();
+            //var l = new LargestExponential();
+            //l.demo();
 
 
             //var p = new PrimeGeneratingIntegers();
             //p.demo();
+
+            //var s = new SquareDigitChains();
+            //s.demo();
+
+
+            //var p = new PowerfulDigitPrimes();
+            //p.Demo();
+
+
+
+            //var s = new SquareRootConvergents();
+            //s.demo();
+
+
+            //var s = new SpiralPrimes();
+            //s.demo();
+
+            var p = new PowerfulDigitCounts();
+            p.demo();
+
 
             Console.ReadKey();
         }
