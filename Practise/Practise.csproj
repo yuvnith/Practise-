@@ -57,8 +57,10 @@
     <Compile Include="CircularPrimes.cs" />
     <Compile Include="CitiesConquering.cs" />
     <Compile Include="CodedTriangleNumbers.cs" />
+    <Compile Include="CombinatoricSelections.cs" />
     <Compile Include="CrossingSum.cs" />
     <Compile Include="CubicPermutations.cs" />
+    <Compile Include="CurrentBuffer.cs" />
     <Compile Include="CyclicalFigurateNumbers.cs" />
     <Compile Include="Demo2.cs" />
     <Compile Include="DigitCancellingFractions.cs" />

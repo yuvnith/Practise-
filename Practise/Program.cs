@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Eventing.Reader;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
@@ -1920,8 +1921,62 @@ namespace Practise
             //var s = new SpiralPrimes();
             //s.demo();
 
-            var p = new PowerfulDigitCounts();
-            p.demo();
+            //var p = new PowerfulDigitCounts();
+            //p.demo();
+
+            //var c  = new CombinatoricSelections();
+            //c.demo();
+
+            //int[] a = { 7 ,15 ,12 ,0, 5 ,18 ,17, 2 ,10 ,15 ,4 ,2 ,9 ,15, 13 ,12 ,16 };
+            //int[] b = {12 ,16 ,6 ,8 ,16 ,15 ,18 ,3 ,11 ,0 ,17 ,7 ,6 ,11 ,14 ,13 ,15 ,6 ,18, 6 ,16 ,12 ,16 ,11 ,16 ,11};
+
+            //var c = new CurrentBuffer();
+            //Console.WriteLine(c.twoStacks(62, a, b));
+
+
+            //int g = Convert.ToInt32(Console.ReadLine());
+
+            //for (int gItr = 0; gItr < g; gItr++)
+            //{
+            //    string[] nmx = Console.ReadLine().Split(' ');
+
+            //    int n = Convert.ToInt32(nmx[0]);
+
+            //    int m = Convert.ToInt32(nmx[1]);
+
+            //    int x = Convert.ToInt32(nmx[2]);
+
+            //    int[] a = Array.ConvertAll(Console.ReadLine().Split(' '), aTemp => Convert.ToInt32(aTemp))
+            //        ;
+
+            //    int[] b = Array.ConvertAll(Console.ReadLine().Split(' '), bTemp => Convert.ToInt32(bTemp))
+            //        ;
+            //    int result = CurrentBuffer.twoStacks(x, a, b);
+
+            //    Console.WriteLine(result);
+            //}
+
+
+            int[] grades = { 73, 67, 38, 33};
+            var res = new List<int>();
+
+            foreach (var g in grades)
+            {
+                if (g >= 38)
+                {
+                    if (g % 5 > 2 || g % 5 == 0)
+                        res.Add(g + 5 - (g % 5));
+                    else
+                        res.Add(g);
+                }
+                else
+                    res.Add(g);
+            }
+
+            
+
+
+
 
 
             Console.ReadKey();
