@@ -1955,27 +1955,10 @@ namespace Practise
 
             //    Console.WriteLine(result);
             //}
-
-
-            int[] grades = { 73, 67, 38, 33};
-            var res = new List<int>();
-
-            foreach (var g in grades)
-            {
-                if (g >= 38)
-                {
-                    if (g % 5 > 2 || g % 5 == 0)
-                        res.Add(g + 5 - (g % 5));
-                    else
-                        res.Add(g);
-                }
-                else
-                    res.Add(g);
-            }
-
             
-
-
+            Method1();
+            Method2();
+            Console.ReadKey();
 
 
 
@@ -1983,8 +1966,30 @@ namespace Practise
         }
 
 
-
-
+        public static async Task Method1()
+        {
+            await Task.Run(() =>
+            {
+                for (int i = 0; i < 10000; i++)
+                {
+                    Console.WriteLine(" ---------------------- 1");
+                }
+            });
+        }
+        //public static void Method1()
+        //{
+        //    for (int i = 0; i < 10000; i++)
+        //    {
+        //        Console.WriteLine(" aaaaaaaaaaaaaaaaaaaaaaaaaaaaa 2");
+        //    }
+        //}
+        public static void Method2()
+        {
+            for (int i = 0; i < 10000; i++)
+            {
+                Console.WriteLine("                                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaa 2");
+            }
+        }
 
 
 
